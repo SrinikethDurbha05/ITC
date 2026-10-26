@@ -1,0 +1,70 @@
+==================================================================
+     ITC LIVE COMMUNICATION SYSTEM
+     CONTEXT-MIXING SOURCE CODING + CRC-AIDED POLAR (SCL) + NOISY CHANNEL
+==================================================================
+
+Input (text): my name is sunny
+Channel: awgn, seed = 42
+
+[1] SOURCE
+Input mode             : TEXT
+Original message       : my name is sunny
+UTF-8 message size     : 16 bytes
+Source bits            : 128
+Source P(0)            : 0.500000
+Source P(1)            : 0.500000
+Order-0 entropy H0     : 3.030639 bits/symbol (symbol = byte)
+Order-1 entropy H1     : 0.900652 bits/symbol (symbol = byte)
+
+[2] CONTEXT-MIXING SOURCE CODING
+Model                  : bitwise context mixing (orders 0-3 + match model)
+Warm start             : ON
+Original source bits   : 128
+Compressed bits        : 80  (includes 32-bit length header)
+Compression ratio      : 1.600 : 1
+Size reduction         : 37.50%
+Average code length    : 5.0000 bits/symbol
+Without warm start     : 139 bits
+
+[3] POLAR CHANNEL ENCODING
+Block length N         : 256
+Info bits/block (K)    : 128
+CRC                    : CRC-11 (0xE21), payload bits/block = 117
+Codeword bits/block    : 256
+Effective code rate    : 0.457  (= (K - r)/N payload bits per channel use)
+Frozen-set design      : Gaussian approximation (BI-AWGN, design Eb/N0 = 2.5 dB)
+Compressed bits        : 80
+Padding bits           : 37
+Polar blocks           : 1
+Transmitted bits       : 256
+Frozen-set validation  : PASSED
+Encoder vs G-matrix    : PASSED
+
+[4] CHANNEL TRANSMISSION
+Channel type           : BPSK over AWGN (Eb/N0 = 1 dB, sigma^2 = 0.8690)
+Channel bit errors     : 32
+Channel BER            : 0.125000
+Uncoded-equivalent errors expected : 4.50  (if the 80 compressed bits were sent without coding)
+
+[5] RECEIVER AND SOURCE DECODING
+Decoder                : CRC-aided Successive Cancellation List (L=8)
+CRC checks passed      : 1 / 1 blocks
+Blocks rescued by list : 1  (blocks plain SC would have failed)
+Recovered message      : my name is sunny
+Message matches input  : True
+
+[6] FINAL RESULTS
+------------------------------------------------------------------
+Source bits            : 128
+Compressed bits        : 80
+Transmitted bits       : 256
+Channel bit errors     : 32
+Errors corrected by decoder : 32
+Source bit errors      : 0
+Source BER             : 0.0000000000
+Capacity check         : R_eff = 0.457 < C_BIAWGN(sigma^2 = 0.8690) = 0.5323
+Finite-blocklength     : predicted FER of ideal code (N=256) = 3.625e-02  (normal approximation)
+
+RESULT: PASS
+The original input was recovered exactly.
+==================================================================

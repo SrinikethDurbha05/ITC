@@ -1,0 +1,160 @@
+Running 60 simulation points on 11 worker processes (quick mode, seed 42, target 100 frame errors, max 2000 frames per point) ...
+  [  1/60] Polar CA-SCL (L=8, CRC-11)         awgn 5     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [  2/60] Polar SCL (L=8, no CRC)            awgn 5     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [  3/60] Polar CA-SCL (L=32, CRC-11)        awgn 1     frames=600    FE=105  BER=6.392e-02 FER=1.750e-01
+  [  4/60] Polar CA-SCL (L=8, CRC-6)          awgn 5     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [  5/60] Polar CA-SCL (L=8, CRC-11)         awgn 4     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [  6/60] PAC (L=32, RM profile)             awgn 1     frames=1100   FE=145  BER=5.061e-02 FER=1.318e-01
+  [  7/60] Polar SCL (L=8, no CRC)            awgn 4     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [  8/60] CA-SCL list sweep (L=16, CRC-11)   awgn 2     frames=2000   FE=26   BER=3.774e-03 FER=1.300e-02
+  [  9/60] Polar CA-SCL (L=8, CRC-6)          awgn 4     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 10/60] PAC (L=8, RM profile)              awgn 4     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 11/60] PAC (L=32, RM profile)             awgn 3     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 12/60] PAC (L=32, RM profile)             awgn 4     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 13/60] PAC (L=32, RM profile)             awgn 2     frames=2000   FE=17   BER=2.350e-03 FER=8.500e-03
+  [ 14/60] Polar SCL (L=8, no CRC)            awgn 3     frames=2000   FE=1    BER=1.282e-04 FER=5.000e-04
+  [ 15/60] Polar CA-SCL (L=32, CRC-11)        awgn 3     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 16/60] Polar CA-SCL (L=32, CRC-11)        awgn 2     frames=2000   FE=16   BER=2.769e-03 FER=8.000e-03
+  [ 17/60] Polar CA-SCL (L=8, CRC-11)         awgn 3     frames=2000   FE=1    BER=2.564e-05 FER=5.000e-04
+  [ 18/60] CA-SCL list sweep (L=32, CRC-11)   awgn 2     frames=2000   FE=27   BER=4.043e-03 FER=1.350e-02
+  [ 19/60] Polar CA-SCL (L=32, CRC-11)        awgn 4     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 20/60] Polar CA-SCL (L=8, CRC-6)          awgn 3     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 21/60] PAC (L=8, RM profile)              awgn 3     frames=2000   FE=2    BER=2.094e-04 FER=1.000e-03
+  [ 22/60] Polar CA-SCL (L=8, CRC-11)         awgn 1     frames=600    FE=166  BER=9.377e-02 FER=2.767e-01
+  [ 23/60] Polar CA-SCL (L=8, CRC-6)          awgn 1     frames=600    FE=117  BER=6.450e-02 FER=1.950e-01
+  [ 24/60] PAC (L=8, RM profile)              awgn 1     frames=600    FE=126  BER=9.229e-02 FER=2.100e-01
+  [ 25/60] Polar CA-SCL (L=8, CRC-11)         awgn 0     frames=600    FE=478  BER=3.193e-01 FER=7.967e-01
+  [ 26/60] Polar SCL (L=8, no CRC)            awgn 1     frames=1100   FE=188  BER=4.236e-02 FER=1.709e-01
+  [ 27/60] Polar SCL (L=8, no CRC)            awgn 0     frames=600    FE=381  BER=2.186e-01 FER=6.350e-01
+  [ 28/60] CA-SCL list sweep (L=4, CRC-11)    awgn 2     frames=2000   FE=99   BER=1.316e-02 FER=4.950e-02
+  [ 29/60] Polar CA-SCL (L=8, CRC-6)          awgn 0     frames=600    FE=413  BER=2.626e-01 FER=6.883e-01
+  [ 30/60] Polar SCL (L=8, no CRC)            awgn 2     frames=2000   FE=38   BER=3.547e-03 FER=1.900e-02
+  [ 31/60] Polar CA-SCL (L=8, CRC-11)         awgn 2     frames=2000   FE=66   BER=8.697e-03 FER=3.300e-02
+  [ 32/60] Polar CA-SCL (L=8, CRC-6)          awgn 2     frames=2000   FE=23   BER=2.816e-03 FER=1.150e-02
+  [ 33/60] Polar SC (L=1, no CRC)             awgn 5     frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 34/60] Polar CA-SCL (L=8, CRC-11)          bsc 0.1   frames=600    FE=276  BER=1.348e-01 FER=4.600e-01
+  [ 35/60] Polar SC (L=1, no CRC)             awgn 4     frames=2000   FE=1    BER=1.709e-05 FER=5.000e-04
+  [ 36/60] Polar SC (L=1, no CRC)             awgn 3     frames=2000   FE=17   BER=1.808e-03 FER=8.500e-03
+  [ 37/60] Polar CA-SCL (L=8, CRC-11)          bsc 0.12  frames=600    FE=446  BER=2.575e-01 FER=7.433e-01
+  [ 38/60] PAC (L=8, RM profile)              awgn 2     frames=2000   FE=49   BER=1.015e-02 FER=2.450e-02
+  [ 39/60] CA-SCL list sweep (L=2, CRC-11)    awgn 2     frames=1100   FE=142  BER=3.364e-02 FER=1.291e-01
+  [ 40/60] CA-SCL list sweep (L=8, CRC-11)    awgn 2     frames=2000   FE=61   BER=8.611e-03 FER=3.050e-02
+  [ 41/60] Polar SC (L=1, no CRC)             awgn 1     frames=600    FE=282  BER=1.373e-01 FER=4.700e-01
+  [ 42/60] Polar SC (L=1, no CRC)              bsc 0.08  frames=600    FE=148  BER=5.291e-02 FER=2.467e-01
+  [ 43/60] Polar SC (L=1, no CRC)             awgn 0     frames=600    FE=513  BER=3.053e-01 FER=8.550e-01
+  [ 44/60] Polar SC (L=1, no CRC)             awgn 2     frames=1100   FE=118  BER=2.528e-02 FER=1.073e-01
+  [ 45/60] Uncoded BPSK                       awgn 0     frames=100    FE=100  BER=8.026e-02 FER=1.000e+00
+  [ 46/60] Uncoded BPSK                       awgn 1     frames=600    FE=599  BER=5.611e-02 FER=9.983e-01
+  [ 47/60] Uncoded BPSK                       awgn 2     frames=600    FE=596  BER=3.734e-02 FER=9.933e-01
+  [ 48/60] Uncoded BPSK                       awgn 3     frames=600    FE=561  BER=2.232e-02 FER=9.350e-01
+  [ 49/60] Uncoded BPSK                       awgn 4     frames=600    FE=470  BER=1.311e-02 FER=7.833e-01
+  [ 50/60] Uncoded BPSK                       awgn 5     frames=600    FE=314  BER=6.467e-03 FER=5.233e-01
+  [ 51/60] Polar SC (L=1, no CRC)              bsc 0.1   frames=600    FE=349  BER=1.416e-01 FER=5.817e-01
+  [ 52/60] CA-SCL list sweep (L=1, CRC-11)    awgn 2     frames=600    FE=148  BER=6.417e-02 FER=2.467e-01
+  [ 53/60] Polar SC (L=1, no CRC)              bsc 0.12  frames=600    FE=480  BER=2.517e-01 FER=8.000e-01
+  [ 54/60] Polar SC (L=1, no CRC)              bsc 0.06  frames=1600   FE=118  BER=1.152e-02 FER=7.375e-02
+  [ 55/60] Polar SC (L=1, no CRC)              bsc 0.04  frames=2000   FE=12   BER=7.778e-04 FER=6.000e-03
+  [ 56/60] Polar SC (L=1, no CRC)              bsc 0.02  frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 57/60] Polar CA-SCL (L=8, CRC-11)          bsc 0.08  frames=1100   FE=161  BER=3.626e-02 FER=1.464e-01
+  [ 58/60] Polar CA-SCL (L=8, CRC-11)          bsc 0.02  frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 59/60] Polar CA-SCL (L=8, CRC-11)          bsc 0.04  frames=2000   FE=0    BER=0.000e+00 FER=0.000e+00
+  [ 60/60] Polar CA-SCL (L=8, CRC-11)          bsc 0.06  frames=2000   FE=33   BER=3.393e-03 FER=1.650e-02
+Simulation time: 15.4 s
+
+scheme                            N    K    crc_bits  R_eff   L   channel  EbN0_dB_or_p  frames  frame_errors  bit_errors  BER        FER        time_per_block_ms  gain_dB_at_BER_1e-3  errors_with_correct_path_in_list
+Uncoded BPSK                      -    -    0         1.0000  -   AWGN     0             100     100           939         8.026e-02  1.000e+00  0.0000             n/a                  -                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   AWGN     0             600     513           21432       3.053e-01  8.550e-01  0.0909             3.66                 -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   AWGN     0             600     478           22418       3.193e-01  7.967e-01  1.2432             4.42                 0                               
+Polar SCL (L=8, no CRC)           256  117  0         0.4570  8   AWGN     0             600     381           15346       2.186e-01  6.350e-01  1.1892             4.41                 56                              
+Polar CA-SCL (L=8, CRC-6)         256  123  6         0.4570  8   AWGN     0             600     413           18433       2.626e-01  6.883e-01  1.2087             n/a                  0                               
+Uncoded BPSK                      -    -    0         1.0000  -   AWGN     1             600     599           3939        5.611e-02  9.983e-01  0.0000             n/a                  -                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   AWGN     1             600     282           9638        1.373e-01  4.700e-01  0.0860             3.66                 -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   AWGN     1             600     166           6583        9.377e-02  2.767e-01  1.1835             4.42                 0                               
+Polar SCL (L=8, no CRC)           256  117  0         0.4570  8   AWGN     1             1100    188           5452        4.236e-02  1.709e-01  1.2253             4.41                 79                              
+Polar CA-SCL (L=8, CRC-6)         256  123  6         0.4570  8   AWGN     1             600     117           4528        6.450e-02  1.950e-01  1.1738             n/a                  3                               
+Uncoded BPSK                      -    -    0         1.0000  -   AWGN     2             600     596           2621        3.734e-02  9.933e-01  0.0000             n/a                  -                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   AWGN     2             1100    118           3253        2.528e-02  1.073e-01  0.0819             3.66                 -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   AWGN     2             2000    66            2035        8.697e-03  3.300e-02  1.2099             4.42                 0                               
+Polar SCL (L=8, no CRC)           256  117  0         0.4570  8   AWGN     2             2000    38            830         3.547e-03  1.900e-02  1.1710             4.41                 29                              
+Polar CA-SCL (L=8, CRC-6)         256  123  6         0.4570  8   AWGN     2             2000    23            659         2.816e-03  1.150e-02  1.1801             n/a                  1                               
+Uncoded BPSK                      -    -    0         1.0000  -   AWGN     3             600     561           1567        2.232e-02  9.350e-01  0.0000             n/a                  -                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   AWGN     3             2000    17            423         1.808e-03  8.500e-03  0.0879             3.66                 -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   AWGN     3             2000    1             6           2.564e-05  5.000e-04  1.3843             4.42                 0                               
+Polar SCL (L=8, no CRC)           256  117  0         0.4570  8   AWGN     3             2000    1             30          1.282e-04  5.000e-04  1.2051             4.41                 1                               
+Polar CA-SCL (L=8, CRC-6)         256  123  6         0.4570  8   AWGN     3             2000    0             0           0.000e+00  0.000e+00  1.2994             n/a                  0                               
+Uncoded BPSK                      -    -    0         1.0000  -   AWGN     4             600     470           920         1.311e-02  7.833e-01  0.0000             n/a                  -                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   AWGN     4             2000    1             4           1.709e-05  5.000e-04  0.0852             3.66                 -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   AWGN     4             2000    0             0           0.000e+00  0.000e+00  1.3354             4.42                 0                               
+Polar SCL (L=8, no CRC)           256  117  0         0.4570  8   AWGN     4             2000    0             0           0.000e+00  0.000e+00  1.3164             4.41                 0                               
+Polar CA-SCL (L=8, CRC-6)         256  123  6         0.4570  8   AWGN     4             2000    0             0           0.000e+00  0.000e+00  1.3113             n/a                  0                               
+Uncoded BPSK                      -    -    0         1.0000  -   AWGN     5             600     314           454         6.467e-03  5.233e-01  0.0000             n/a                  -                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   AWGN     5             2000    0             0           0.000e+00  0.000e+00  0.0821             3.66                 -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   AWGN     5             2000    0             0           0.000e+00  0.000e+00  1.3295             4.42                 0                               
+Polar SCL (L=8, no CRC)           256  117  0         0.4570  8   AWGN     5             2000    0             0           0.000e+00  0.000e+00  1.3311             4.41                 0                               
+Polar CA-SCL (L=8, CRC-6)         256  123  6         0.4570  8   AWGN     5             2000    0             0           0.000e+00  0.000e+00  1.3975             n/a                  0                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   BSC      0.02          2000    0             0           0.000e+00  0.000e+00  0.0823             n/a                  -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   BSC      0.02          2000    0             0           0.000e+00  0.000e+00  0.9768             n/a                  0                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   BSC      0.04          2000    12            182         7.778e-04  6.000e-03  0.0772             n/a                  -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   BSC      0.04          2000    0             0           0.000e+00  0.000e+00  0.8826             n/a                  0                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   BSC      0.06          1600    118           2157        1.152e-02  7.375e-02  0.0805             n/a                  -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   BSC      0.06          2000    33            794         3.393e-03  1.650e-02  0.8679             n/a                  0                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   BSC      0.08          600     148           3714        5.291e-02  2.467e-01  0.0901             n/a                  -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   BSC      0.08          1100    161           4667        3.626e-02  1.464e-01  1.0903             n/a                  0                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   BSC      0.1           600     349           9943        1.416e-01  5.817e-01  0.0850             n/a                  -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   BSC      0.1           600     276           9461        1.348e-01  4.600e-01  1.1789             n/a                  0                               
+Polar SC (L=1, no CRC)            256  117  0         0.4570  1   BSC      0.12          600     480           17667       2.517e-01  8.000e-01  0.0917             n/a                  -                               
+Polar CA-SCL (L=8, CRC-11)        256  128  11        0.4570  8   BSC      0.12          600     446           18079       2.575e-01  7.433e-01  1.1637             n/a                  1                               
+PAC (L=8, RM profile)             256  117  0         0.4570  8   AWGN     1             600     126           6479        9.229e-02  2.100e-01  1.2580             n/a                  -                               
+PAC (L=32, RM profile)            256  117  0         0.4570  32  AWGN     1             1100    145           6513        5.061e-02  1.318e-01  5.6978             n/a                  -                               
+Polar CA-SCL (L=32, CRC-11)       256  128  11        0.4570  32  AWGN     1             600     105           4487        6.392e-02  1.750e-01  5.5572             n/a                  1                               
+PAC (L=8, RM profile)             256  117  0         0.4570  8   AWGN     2             2000    49            2374        1.015e-02  2.450e-02  1.2460             n/a                  -                               
+PAC (L=32, RM profile)            256  117  0         0.4570  32  AWGN     2             2000    17            550         2.350e-03  8.500e-03  5.4509             n/a                  -                               
+Polar CA-SCL (L=32, CRC-11)       256  128  11        0.4570  32  AWGN     2             2000    16            648         2.769e-03  8.000e-03  5.6154             n/a                  0                               
+PAC (L=8, RM profile)             256  117  0         0.4570  8   AWGN     3             2000    2             49          2.094e-04  1.000e-03  1.3576             n/a                  -                               
+PAC (L=32, RM profile)            256  117  0         0.4570  32  AWGN     3             2000    0             0           0.000e+00  0.000e+00  5.3739             n/a                  -                               
+Polar CA-SCL (L=32, CRC-11)       256  128  11        0.4570  32  AWGN     3             2000    0             0           0.000e+00  0.000e+00  5.6034             n/a                  0                               
+PAC (L=8, RM profile)             256  117  0         0.4570  8   AWGN     4             2000    0             0           0.000e+00  0.000e+00  1.3445             n/a                  -                               
+PAC (L=32, RM profile)            256  117  0         0.4570  32  AWGN     4             2000    0             0           0.000e+00  0.000e+00  5.4168             n/a                  -                               
+Polar CA-SCL (L=32, CRC-11)       256  128  11        0.4570  32  AWGN     4             2000    0             0           0.000e+00  0.000e+00  5.7418             n/a                  0                               
+CA-SCL list sweep (L=1, CRC-11)   256  128  11        0.4570  1   AWGN     2             600     148           4505        6.417e-02  2.467e-01  0.2148             n/a                  0                               
+CA-SCL list sweep (L=2, CRC-11)   256  128  11        0.4570  2   AWGN     2             1100    142           4329        3.364e-02  1.291e-01  0.3653             n/a                  0                               
+CA-SCL list sweep (L=4, CRC-11)   256  128  11        0.4570  4   AWGN     2             2000    99            3079        1.316e-02  4.950e-02  0.6408             n/a                  0                               
+CA-SCL list sweep (L=8, CRC-11)   256  128  11        0.4570  8   AWGN     2             2000    61            2015        8.611e-03  3.050e-02  1.2209             n/a                  0                               
+CA-SCL list sweep (L=16, CRC-11)  256  128  11        0.4570  16  AWGN     2             2000    26            883         3.774e-03  1.300e-02  2.8625             n/a                  0                               
+CA-SCL list sweep (L=32, CRC-11)  256  128  11        0.4570  32  AWGN     2             2000    27            946         4.043e-03  1.350e-02  5.6926             n/a                  0                               
+(time_per_block_ms: measured inside the parallel workers on batches of up to 500 blocks)
+
+Source coding (bits/symbol incl. headers; symbol = byte for text, bit for binary):
+input                       CM warm  CM cold  deflate    LZMA2      H0      H1
+English 16 B                  5.625    8.562    9.000   10.000   3.203   0.533
+English 64 B                  4.078    6.031    7.125    8.625   3.909   1.731
+English 256 B                 3.234    4.719    5.250    6.406   4.143   2.614
+English 1024 B                2.863    3.725    4.219    4.789   4.217   3.027
+Binary P(1)=0.1, 10000 b      0.490    0.478    0.598    0.684   0.468   0.468
+
+Decoding time per block at Eb/N0 = 2.0 dB (main process):
+  plain SC (batched): 0.028 ms
+  CA-SCL L=1 : batched    0.074 ms   one block per call    5.576 ms
+  CA-SCL L=2 : batched    0.185 ms   one block per call    5.391 ms
+  CA-SCL L=4 : batched    0.198 ms   one block per call    5.735 ms
+  CA-SCL L=8 : batched    0.367 ms   one block per call    6.038 ms
+  CA-SCL L=16: batched    0.758 ms   one block per call    6.475 ms
+  CA-SCL L=32: batched    1.585 ms   one block per call    6.338 ms
+
+BI-AWGN Shannon limit for R_eff = 0.4570: -0.002 dB
+Uncoded BPSK needs 6.790 dB for BER = 1e-3 (theory); BSC threshold p* = 0.1248
+  coding gain at BER 1e-3, Uncoded BPSK                : not reached in the simulated range
+  coding gain at BER 1e-3, Polar SC (L=1, no CRC)      : 3.66 dB
+  coding gain at BER 1e-3, Polar CA-SCL (L=8, CRC-11)  : 4.42 dB
+  coding gain at BER 1e-3, Polar SCL (L=8, no CRC)     : 4.41 dB
+  coding gain at BER 1e-3, Polar CA-SCL (L=8, CRC-6)   : not reached in the simulated range
+Eb/N0 at FER 1e-3: normal approximation (ideal (256,117) code) 1.80 dB
+  Polar SC (L=1, no CRC)      : 3.76 dB  (gap 1.95 dB)
+  Polar CA-SCL (L=8, CRC-11)  : 2.83 dB  (gap 1.03 dB)
+  Polar SCL (L=8, no CRC)     : 2.81 dB  (gap 1.01 dB)
+  Polar CA-SCL (L=8, CRC-6)   : not reached
+  PAC (L=8, RM profile)       : not reached
+  PAC (L=32, RM profile)      : not reached
+  Polar CA-SCL (L=32, CRC-11) : not reached
+
+Figures and CSV files written to C:\Users\srini\Desktop\ITC\results
